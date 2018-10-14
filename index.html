@@ -39,10 +39,6 @@
   <!--- NavBar  -->
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><a style="font-size: 30px;text-decoration: none; margin-left: 80px" id="logo-container" href="#" class="brand-logo"><i class="material-icons" style="font-size: 50px">remove_red_eye</i>BlinkCeption</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a class="bc-first bc-1 bc-navbar" style="font-size: 20px; text-decoration: none;" href="index.html">Home</a></li>
-        <li style="margin-right: 80px;"><a class="bc-2 bc-navbar" style="font-size: 20px;text-decoration: none;" href="more.html">More</a></li>
-      </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
@@ -132,27 +128,27 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center light-blue-text"><i class="large material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
+            <h5 class="center">Speedy delivery</h5>
 
-            <p style="color: grey;" class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <p style="color: grey;" class="light">Our software works as fast as you can blink! We managed to translate all your facial movements to morse code which is then populated into real characters that you see while typing. Other web element interactions are all controlled by similar movements.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center light-blue-text"><i class="large material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
+            <h5 class="center">Focused on your needs</h5>
 
-            <p style="color: grey;" class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <p style="color: grey;" class="light">By utilizing Computer Vision techniques we were able to create a software that incorporates facial recognition that can be used to interact with web elements completely hands-free. Additionally, it can remember your facial thresholds after configuring it once so you save time on every recurring use.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center light-blue-text"><i class="large material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
+            <h5 class="center">How it works</h5>
 
-            <p style="color: grey;" class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <p style="color: grey;" class="light">It uses Selenium to automate the web elements and a series of facial patterns to cycle through all the interactable elements and modify them in some way such as typing on text fields or sliding through the different images on a slideshow. </p>
           </div>
         </div>
       </div>
@@ -180,9 +176,75 @@
   </div>
 
   <!-- Button with toast-->
-  <div class="row center bc-8 bc-last bc-button">
+  <div class="row center bc-8 bc-button">
     <a style="text-decoration:none" id="download-button" class="btn-large waves-effect waves-light orange" onclick="M.toast({html: 'Button Clicked!', displayLength: 2000})">Get Started</a>
   </div>
+
+  <!--- Form  -->
+<div class="container">
+  <form class="col s12" role="form" action="" method="post" enctype="text/plain">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" name="first_name" class="validate bc-9 bc-input" required>
+        </div>
+      </div>
+      <div class="row">
+        <div style="padding-bottom: 20px"><b style="font-size: 30px;">Who is winning the hackathon?</b></div>
+        <p class="bc-10 bc-button" >
+      <label>
+        <input name="group1" type="radio" checked />
+        <span style="font-size: 20px;">BlinkCeption</span>
+      </label>
+    </p>
+    <p class="bc-11 bc-button" >
+      <label>
+        <input name="group1" type="radio" />
+        <span style="font-size: 20px;">BlinkCeption ofc</span>
+      </label>
+    </p>
+    <p class="bc-12 bc-button" >
+      <label>
+        <input name="group1" type="radio"  />
+        <span style="font-size: 20px;">Nothing but BlinkCeption</span>
+      </label>
+    </p>
+    <p class="bc-13 bc-button" >
+      <label>
+        <input name="group1" type="radio"/>
+        <span style="font-size: 20px;">BlinkCeption duh</span>
+      </label>
+    </p>
+      </div>
+      <div class="row">
+        <div style="padding-bottom: 20px"><b style="font-size: 30px;">How much would you rate this product?</b></div>
+        <p class="range-field">
+      <input class="bc-slide bc-14" type="range" id="test5" min="0" max="100"/>
+        </p>
+      </div>
+    </form>
+</div>
+
+
+<!-- Card -->
+<div class="container">
+  <div class="row">
+    <div class="col m12">
+    <div class="col s6 m6 offset-m3">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title" style="text-align: center;">Devpost</span>
+          <p style="text-align: center;">Here you can find detailed information on our project.</p>
+        </div>
+        <div class="card-action col m12">
+          <div class="col offset-m4">
+          <a class="bc-9 bc-last bc-button" href="https://devpost.com/software/blinkception"><span style="margin-left: 37px;">Click Here</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
 
   <!-- Footer -->
 
@@ -190,28 +252,8 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+          <h5 class="white-text">Bye!</h5>
+          <p class="grey-text text-lighten-4">Thanks for checking out our project!</p>
         </div>
       </div>
     </div>
@@ -230,4 +272,3 @@
 
   </body>
 </html>
-
